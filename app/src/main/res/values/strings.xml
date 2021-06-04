@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Miskaa Assignment</string>
+    <string name="title">Countries in Asia</string>
+    <string name="dialog_title">Country information</string>
+</resources>

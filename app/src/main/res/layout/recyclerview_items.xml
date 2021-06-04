@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/flagImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/card"
+        android:padding="8dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/card"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:padding="8dp"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+</LinearLayout>
